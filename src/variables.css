@@ -1,0 +1,19 @@
+:root {
+  /*Color*/
+  --color-red-1: #B81D24;
+  --color-red-2: #E50914;
+  --color-black: #221F1F;
+  --color-gray:  #F5F5F1;
+
+  /*Font-Family*/
+  --ff-title: Arial;
+  --ff-text: Arial;
+
+  /*Font-Size*/
+  --fs-title: 2rem;
+  --fs-text:  1.2rem;
+
+  /*Font-Weight*/
+  --fw-title: 700;
+  --fw-text:  400;
+}

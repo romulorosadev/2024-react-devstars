@@ -1,6 +1,6 @@
 .main{
   align-items: center;
-  background-color: #F5F5F1;
+  background-color: var(--color-gray);
   display: flex;
   flex-flow: column;
   padding: 2rem;
@@ -8,13 +8,10 @@
 
 .main__text,
 .main__title{
-  color: #000;
-}
-
-.main__text{
-  font-size: 1.2rem;
+  color: var(--color-black);
 }
 
 .main__title{
-  font-size: 2rem;
+  font-size:   var(--fs-title);
+  font-weight: var(--fw-title);
 }

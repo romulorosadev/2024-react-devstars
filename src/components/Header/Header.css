@@ -1,6 +1,6 @@
 .header{
   align-items: center;
-  background-color: #B81D24;
+  background-color: var(--color-red-1);
   display: flex;
   flex-flow: column;
   padding: 2rem;
@@ -8,13 +8,10 @@
 
 .header__text,
 .header__title{
-  color: #F5F5F1;
-}
-
-.header__text{
-  font-size: 1.2rem;
+  color: var(--color-gray);
 }
 
 .header__title{
-  font-size: 2rem;
+  font-size:   var(--fs-title);
+  font-weight: var(--fw-title);
 }
